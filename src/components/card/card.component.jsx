@@ -1,13 +1,16 @@
 import React from "react";
 import "./card.styles.css";
 
-export const Card = (props) => (
-  <div className="card-container">
-    <img
-      alt="monster"
-      src={`https://robohash.org/${props.monster.id}?set=set1`}
-    />
-    <h1>{props.monster.name}</h1>
-    <p>{props.monster.email}</p>
-  </div>
-);
+export const Card = (props) => {
+  return (
+    <div className="card-container">
+      <img
+        alt={props.pokemon.name}
+        className="photo"
+        style={{ alignSelf: "center" }}
+        src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${props.pokemon.id}.png`}
+      />
+      <h1>{props.pokemon.name}</h1>
+    </div>
+  );
+};

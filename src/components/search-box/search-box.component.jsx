@@ -6,7 +6,7 @@ export const SearchBox = (props) => {
     <input
       className="search"
       type="search"
-      placeholder="Search Monsters"
+      placeholder="Search Pokemon"
       onChange={props.handleChange}
     />
   );
