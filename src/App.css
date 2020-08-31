@@ -1,3 +1,10 @@
+@import url("https://db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon");
+
+@font-face {
+  font-family: "Pokemon";
+  src: url("https://db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon");
+}
+
 body {
   padding: 30px 0;
 }
