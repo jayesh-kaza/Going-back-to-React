@@ -4,7 +4,7 @@ import { CardList } from "../card-list/card-list.component";
 
 class Content extends Component {
   constructor(props) {
-    super();
+    super(props);
 
     this.state = {
       pokemon_list: props.pokemon_list,

@@ -1,9 +1,17 @@
 .search {
   -webkit-appearance: none;
+  border-radius: 15px;
   border: none;
-  outline: none;
-  padding: 10px;
-  width: 400px;
+  padding: 5px;
   line-height: 30px;
+  margin-top: 30px;
   margin-bottom: 30px;
+  width: 84%;
+}
+
+input[type="search"] {
+  font-family: "Bangers", cursive;
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #7f6f62;
 }
