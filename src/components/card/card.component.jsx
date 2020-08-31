@@ -10,7 +10,7 @@ export const Card = (props) => {
         style={{ alignSelf: "center" }}
         src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${props.pokemon.id}.png`}
       />
-      <h1>{props.pokemon.name}</h1>
+      <h2>{props.pokemon.name}</h2>
     </div>
   );
 };

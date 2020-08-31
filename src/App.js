@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import { CardList } from "./components/card-list/card-list.component";
-import { SearchBox } from "./components/search-box/search-box.component";
-import pokedex from './pokedex-icon.jpg';
 import "./App.css";
+import { Header } from "./components/header/header.component";
+import Content from "./components/content/content.component";
 
 class App extends Component {
   constructor() {
@@ -11,7 +10,6 @@ class App extends Component {
     this.state = {
       page_state: 1,
       pokemon_list: [],
-      searchField: "",
     };
   }
 
@@ -56,29 +54,12 @@ class App extends Component {
     });
   }
 
-  updateSearchField = (e) => this.setState({ searchField: e.target.value });
-
-  filterPokemon = (pokemon_list, searchField) => {
-    return pokemon_list.filter((pokemon) =>
-      pokemon.name.toLowerCase().includes(searchField.toLowerCase())
-    );
-  };
-
   render() {
-    const { pokemon_list, searchField } = this.state;
+    const { pokemon_list } = this.state;
     return (
       <div className="App">
-        <img src={pokedex} height={100} width={100} alt="pokedex icon"/><h1>Pokedex</h1>
-        {pokemon_list.length === 0 ? (
-          <p>Loading...</p>
-        ) : (
-          <div>
-            <SearchBox handleChange={this.updateSearchField} />
-            <CardList
-              pokemon_list={this.filterPokemon(pokemon_list, searchField)}
-            />
-          </div>
-        )}
+        <Header />
+        <Content pokemon_list={pokemon_list} />
       </div>
     );
   }
