@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/pokedex/static/css/main.98c76b80.chunk.css",
-    "main.js": "/pokedex/static/js/main.3246cb82.chunk.js",
-    "main.js.map": "/pokedex/static/js/main.3246cb82.chunk.js.map",
-    "runtime-main.js": "/pokedex/static/js/runtime-main.e6c047ea.js",
-    "runtime-main.js.map": "/pokedex/static/js/runtime-main.e6c047ea.js.map",
-    "static/js/2.66198967.chunk.js": "/pokedex/static/js/2.66198967.chunk.js",
-    "static/js/2.66198967.chunk.js.map": "/pokedex/static/js/2.66198967.chunk.js.map",
-    "index.html": "/pokedex/index.html",
-    "precache-manifest.8e05d417578f160ec2703cf22594c4e9.js": "/pokedex/precache-manifest.8e05d417578f160ec2703cf22594c4e9.js",
-    "service-worker.js": "/pokedex/service-worker.js",
-    "static/css/main.98c76b80.chunk.css.map": "/pokedex/static/css/main.98c76b80.chunk.css.map",
-    "static/js/2.66198967.chunk.js.LICENSE.txt": "/pokedex/static/js/2.66198967.chunk.js.LICENSE.txt",
-    "static/media/pokedex-icon.jpg": "/pokedex/static/media/pokedex-icon.46b5c7c1.jpg"
+    "main.css": "/Going-back-to-React/static/css/main.98c76b80.chunk.css",
+    "main.js": "/Going-back-to-React/static/js/main.7260ecac.chunk.js",
+    "main.js.map": "/Going-back-to-React/static/js/main.7260ecac.chunk.js.map",
+    "runtime-main.js": "/Going-back-to-React/static/js/runtime-main.cca41829.js",
+    "runtime-main.js.map": "/Going-back-to-React/static/js/runtime-main.cca41829.js.map",
+    "static/js/2.66198967.chunk.js": "/Going-back-to-React/static/js/2.66198967.chunk.js",
+    "static/js/2.66198967.chunk.js.map": "/Going-back-to-React/static/js/2.66198967.chunk.js.map",
+    "index.html": "/Going-back-to-React/index.html",
+    "precache-manifest.ca3f6f904b6850ab100fbc756825b143.js": "/Going-back-to-React/precache-manifest.ca3f6f904b6850ab100fbc756825b143.js",
+    "service-worker.js": "/Going-back-to-React/service-worker.js",
+    "static/css/main.98c76b80.chunk.css.map": "/Going-back-to-React/static/css/main.98c76b80.chunk.css.map",
+    "static/js/2.66198967.chunk.js.LICENSE.txt": "/Going-back-to-React/static/js/2.66198967.chunk.js.LICENSE.txt",
+    "static/media/pokedex-icon.jpg": "/Going-back-to-React/static/media/pokedex-icon.46b5c7c1.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e6c047ea.js",
+    "static/js/runtime-main.cca41829.js",
     "static/js/2.66198967.chunk.js",
     "static/css/main.98c76b80.chunk.css",
-    "static/js/main.3246cb82.chunk.js"
+    "static/js/main.7260ecac.chunk.js"
   ]
 }
