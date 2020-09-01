@@ -1,7 +1,11 @@
 .card-container {
   display: flex;
   flex-direction: column;
-  background-color: #95dada;
+  background-image: url("card-background.jpg");
+  background-size: 300px 500px;
+  background-blend-mode: lighten;
+  background-position: center;
+  background-repeat: no-repeat;
   border: 1px solid grey;
   border-radius: 5px;
   padding: 25px;
